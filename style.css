@@ -1,0 +1,154 @@
+@media screen (max-width: 600px) {
+  .grid-container {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 70px auto;
+  }
+  .title {
+    grid-column: 2 / 3;
+    width: auto;
+    text-align: center;
+  }
+  .logo-div {
+    grid-column: 2 / 3;
+    width: auto;
+    height: auto;
+  }
+  .h1 {
+    text-align: center;
+  }
+  .p {
+    text-align: center;
+  }
+  .menu {
+    grid-row: 3 / 5;
+  }
+  .article {
+    grid-column: 2 / 3;
+  }
+  .featured {
+    grid-column: 2 / 3;
+  }
+  .line {
+    grid-column: 2 / 3;
+    width: auto;
+    height: 0px;
+    border: 2px solid grey;
+    border-radius: 2px;
+  }
+  .featrued-work1 {
+    grid-column: 2 / 3;
+    padding: 5px;
+    word-wrap: break-word;
+  }
+  .featrued-work2 {
+    grid-column: 2 / 3;
+    padding: 5px;
+    word-wrap: break-word;
+  }
+  .featrued-work3 {
+    grid-column: 2 / 3;
+    padding: 5px;
+    word-wrap: break-word;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+.grid-container {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 100px 1fr 1fr 1fr;
+}
+body {
+  width: auto;
+}
+h1 {
+  font-family: sans-serif;
+  color: grey;
+}
+h2 {
+  font-family: sans-serif;
+  color: grey;
+}
+h3 {
+  font-family: sans-serif;
+  color: grey;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.title {
+  grid-column: 3 / 5;
+  width: auto;
+  text-align: right;
+}
+.logo-div {
+  grid-column: 2 / 3;
+  width: auto;
+  height: auto;
+}
+.logo {
+  width: 100px;
+  height: 100px;
+  align-self: flex-start;
+}
+.h1 {
+  text-align: right;
+  width: 100%;
+}
+.p {
+  text-align: right;
+  width: 100%;
+}
+.color-text {
+  font-family: sans-serif;
+  color: grey;
+}
+.menu {
+  grid-row: 2 / 4;
+}
+.article {
+  grid-column: 2 / 5;
+}
+.featured {
+  grid-column: 2 / 5;
+}
+.line {
+  grid-column: 2 / 5;
+  width: auto;
+  height: 0px;
+  border: 2px solid grey;
+  border-radius: 2px;
+}
+.color-box1 {
+  width: 60px;
+  height: 60px;
+  background-color: #02b3e4;
+}
+.color-box2 {
+  width: 60px;
+  height: 60px;
+  background-color: #2d3c49;
+}
+.color-box3 {
+  width: 60px;
+  height: 60px;
+  background-color: #7d97ad;
+}
+.featrued-work1 {
+  grid-column: 2 / 3;
+  padding: 5px;
+  word-wrap: break-word;
+}
+.featrued-work2 {
+  grid-column: 3 / 4;
+  padding: 5px;
+  word-wrap: break-word;
+}
+.featrued-work3 {
+  grid-column: 4 / 5;
+  padding: 5px;
+  word-wrap: break-word;
+}
